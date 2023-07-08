@@ -1,6 +1,6 @@
 # blackhole_solar_app
 
-A new Flutter project.
+Flutter beginner app 
 
 ## Getting Started
 
