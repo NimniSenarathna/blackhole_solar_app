@@ -85,6 +85,10 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
 
+                const SizedBox(
+                  height: 35,
+                ),
+
                 //second screen
                 Center(
                   child: Image.asset(
@@ -94,7 +98,7 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 const Text(
-                  "The black hole, a cosmic enigma, is a region of intense gravity where even light cannot escape. It forms when massive stars collapse into an infinitely dense singularity. In contrast, the solar system is a captivating assembly of celestial objects orbiting the Sun. With eight planets, including Earth, along with moons, asteroids, and comets, it teems with diversity. While black holes bend space and time with their immense gravitational force, the solar system harbors unique worlds that ignite our imagination. These contrasting cosmic entities unveil the profound wonders of the universe, enthralling us with their enigmatic nature.",
+                  "Saturn, the majestic jewel of our solar system, is the second-largest planet and adorned with magnificent rings that set it apart from all others. Its mesmerizing rings, composed of icy particles and dust, create a captivating celestial spectacle. Saturn is a gas giant, primarily consisting of hydrogen and helium, with swirling storms and a turbulent atmosphere. The planet boasts numerous moons, the most famous being Titan, a world with lakes of liquid methane. Saturn's distinctive golden hue, attributed to its thick atmosphere, adds to its allure. Exploring Saturn's enigmatic mysteries continues to fascinate scientists and stargazers alike, as it unveils the breathtaking wonders of our vast cosmic neighborhood.",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       color: Colors.white, fontWeight: FontWeight.w400),
