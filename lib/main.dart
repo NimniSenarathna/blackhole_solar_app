@@ -66,18 +66,78 @@ class MyApp extends StatelessWidget {
                   height: 30,
                 ),
                 //button
-                Center(
-                  child: Container(
-                    padding: const EdgeInsets.all(15), //padding from all sides
+                GestureDetector(
+                  onTap: () {},
+                  child: Center(
+                    child: Container(
+                      padding:
+                          const EdgeInsets.all(15), //padding from all sides
 
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(100),
-                      color: Colors.redAccent,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(100),
+                        color: Colors.redAccent,
+                      ),
+                      child: const Text(
+                        "SPACE DETAILS",
+                        style: TextStyle(color: Colors.white),
+                      ),
                     ),
-                    child: const Text(
-                      "SPACE DETAILS",
-                      style: TextStyle(color: Colors.white),
-                    ),
+                  ),
+                ),
+
+                //second screen
+                Center(
+                  child: Image.asset(
+                    "assets/space2.png",
+                    height: 300,
+                    scale: 2,
+                  ),
+                ),
+                const Text(
+                  "The black hole, a cosmic enigma, is a region of intense gravity where even light cannot escape. It forms when massive stars collapse into an infinitely dense singularity. In contrast, the solar system is a captivating assembly of celestial objects orbiting the Sun. With eight planets, including Earth, along with moons, asteroids, and comets, it teems with diversity. While black holes bend space and time with their immense gravitational force, the solar system harbors unique worlds that ignite our imagination. These contrasting cosmic entities unveil the profound wonders of the universe, enthralling us with their enigmatic nature.",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                      color: Colors.white, fontWeight: FontWeight.w400),
+                ),
+
+                Padding(
+                  padding: const EdgeInsets.all(50.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      //orange container
+                      Container(
+                        height: 50,
+                        width: 50,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(100),
+                            color: Colors.orange),
+                      ),
+                      //blue container
+                      Container(
+                        height: 50,
+                        width: 50,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(100),
+                            color: Colors.blue),
+                      ),
+                      //purple container
+                      Container(
+                        height: 50,
+                        width: 50,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(100),
+                            color: Colors.purple),
+                      ),
+                      //pink container
+                      Container(
+                        height: 50,
+                        width: 50,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(100),
+                            color: Colors.pink),
+                      ),
+                    ],
                   ),
                 ),
               ],
