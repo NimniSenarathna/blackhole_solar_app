@@ -144,6 +144,45 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
+
+                //third screen
+                Center(
+                  child: Image.asset(
+                    "assets/space3.png",
+                    height: 300,
+                    scale: 2,
+                  ),
+                ),
+                const Text(
+                  "Saturn, a stunning planet in our solar system, is famous for its magnificent rings that encircle its majestic presence. These rings, made up of ice and debris, give Saturn a distinct and captivating appearance. It is a gas giant, consisting mostly of hydrogen and helium, with swirling storms and a thick atmosphere. Saturn has numerous moons, including Titan, which is known for its unique features. Its vibrant yellowish color adds to its charm, making it a sight to behold. Exploring Saturn's mysteries continues to inspire awe and wonder, offering a glimpse into the remarkable diversity of our celestial neighborhood.",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                      color: Colors.white, fontWeight: FontWeight.w400),
+                ),
+
+                const SizedBox(
+                  height: 30,
+                ),
+
+                //button
+                GestureDetector(
+                  onTap: () {},
+                  child: Center(
+                    child: Container(
+                      padding:
+                          const EdgeInsets.all(15), //padding from all sides
+
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(100),
+                        color: Colors.pinkAccent,
+                      ),
+                      child: const Text(
+                        "SPACE DETAILS",
+                        style: TextStyle(color: Colors.white),
+                      ),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
