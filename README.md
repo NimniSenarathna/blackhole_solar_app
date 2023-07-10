@@ -1,6 +1,6 @@
 # blackhole_solar_app
 
-Flutter beginner app 
+Flutter beginner app using fundamentals
 
 ## Getting Started
 
