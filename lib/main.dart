@@ -183,6 +183,37 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                 ),
+
+                //footer
+                const SizedBox(
+                  height: 30,
+                ),
+
+                Container(
+                  height: 2,
+                  width: 500,
+                  decoration: const BoxDecoration(color: Colors.white30),
+                ),
+                const SizedBox(
+                  height: 12,
+                ),
+                const Text(
+                  "BLACK HOLE",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 20,
+                      fontWeight: FontWeight.w600),
+                ),
+                const SizedBox(
+                  height: 12,
+                ),
+                const Text(
+                  "From the depths of black holes to the wonders of our solar system, the mysteries of the cosmos beckon.",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 14,
+                      fontWeight: FontWeight.w300),
+                ),
               ],
             ),
           ),
